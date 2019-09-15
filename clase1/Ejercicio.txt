@@ -1,0 +1,5 @@
+1) Crear una nueva tabla (si no existe) que contenga al menos 5 columnas con tipos de datos distintos.
+2) Crear la syntaxis necesaria que inserte 5 nuevas filas a la tabla
+3) Crear la syntaxis donde se muestre toda la información de la tabla
+4) Borrar la información de la tabla
+5) Borrar la tabla si existe
