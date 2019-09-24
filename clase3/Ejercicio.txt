@@ -89,3 +89,5 @@
 - Tabla roles
 - Tabla departments
 - Tabla employees
+
+4) Cree un nuevo branch con su nombre-apellido (formato: leandro-c) y suba sus archivos dentro de la carpeta clase3 con nombres representativos que sean fácil de identificar.
