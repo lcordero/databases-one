@@ -1,0 +1,91 @@
+1) Cree una Base de Datos llamada: human_resources
+2) Agregue las siguientes tablas:
+
+=== Tabla 'employees' ===
+| Column        | Type         |
+|---------------|--------------|
+| id            | Integer      |
+| first_name    | varchar(20)  |
+| last_name     | varchar(254) |
+| email         | varchar(25)  |
+| phone_number  | varchar(20)  |
+| hire_date     | date         |
+| job_id        | Integer      |
+| salary        | Integer      |
+| manager_id    | Integer      |
+| department_id | Integer      |
+| role_id       | Integer      |
+| created_at    | Date         |
+| updated_at    | Date         |
+
+
+=== Tabla 'departments' ===
+| Column        | Type        |
+|---------------|-------------|
+| id            | Integer     |
+| name          | varchar(30) |
+| manager_id    | Integer     |
+| location_id   | Integer     |
+| created_at    | Date        |
+| updated_at    | Date        |
+
+
+=== Tabla 'jobs' ===
+| Column        | Type        |
+|---------------|-------------|
+| id            | Integer     |
+| title         | varchar(35) |
+| min_salary    | Integer     |
+| max_salary    | Integer     |
+| created_at    | Date        |
+| updated_at    | Date        |
+
+
+=== Tabla 'roles' ===
+| Column        | Type        |
+|---------------|-------------|
+| id            | Integer     |
+| title         | varchar(20) |
+| created_at    | Date        |
+| updated_at    | Date        |
+
+
+=== Tabla 'locations' ===
+| Column         | Type        |
+|----------------|-------------|
+| id             | Integer     |
+| street_address | varchar(25) |
+| postal_code    | varchar(12) |
+| city           | varchar(30) |
+| state_province | varchar(15) |
+| country_id     | Integer     |
+| created_at     | Date        |
+| updated_at     | Date        |
+
+
+=== Tabla 'countries' ===
+| Column         | Type        |
+|----------------|-------------|
+| id             | Integer     |
+| name           | varchar(40) |
+| region_id      | Integer     |
+| created_at     | Date        |
+| updated_at     | Date        |
+
+
+=== Tabla 'regions' ===
+| Column         | Type        |
+|----------------|-------------|
+| id             | Integer     |
+| name           | varchar(25) |
+| created_at     | Date        |
+| updated_at     | Date        |
+
+3) Ingrese información válida a las tablas de la BD en el siguiente orden:
+- Tabla regions
+- Tabla countries
+- Tabla locations
+- Tabla jobs
+- Tabla roles
+- Tabla departments
+- Tabla employees
