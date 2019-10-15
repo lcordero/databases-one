@@ -1,0 +1,28 @@
+-- 1) Crear una tabla Users con las siguientes columnas:
+-- id -> Integer
+-- name -> varchar 100
+-- country -> varchar 100
+-- age -> Integer
+
+-- 2) Ingrese los siguientes datos en la tabla de Users
+
+ID | NAME | COUNTRY    | AGE
+1, "Juan", "Costa Rica", 17
+2, "Maria", "Panama", 50
+3, "Pedro", "USA", 34
+4, "Marta", "Costa Rica", 12
+5, "Pablo", "Nicaragua", 98
+6, "Ana", "Puerto Rico", 78
+7, "Jose", "Mexico", 15
+8, "Juana", "Costa Rica", 54
+9, "Luis", "Honduras", 49
+10, "Berta", "Costa Rica"  63
+
+
+-- 3) Utilizando UNION y AS cree un sentencia que devuelva el nombre y una nueva columna que diga si es mayor o menor de edad
+
+-- 4) Sentencia SQL que me devuelva todos los usuarios donde el país empiece con la letra 'P'
+
+-- 5) Sentencia SQL que me devuelva los nombres de los usuarios de Costa Rica y USA
+
+-- 6) Seleccione todos los Users que sean mayores de 30 y que sean de cualquier país que no sea Costa Rica
