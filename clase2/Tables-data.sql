@@ -16,7 +16,7 @@ VALUES ("My TASK", "2019-01-01", "2019-01-31", 2, 1, "Description here");
 -- SELECCIONAR TODA LA DATA DE UNA TABLA
 SELECT * FROM tasks;
 
--- BONUS
+-- BONUS+
 -- SELECT tasks.* FROM curso.tasks;
 
 -- ELIMINAR TODA LA DATA DE UNA TABLA
