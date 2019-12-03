@@ -1,0 +1,4 @@
+1) Cree un storeProcedure donde se calcule el área y perímetro de un rectángulo.
+2) Cree un storeProcedute donde reciba el ID de un employee y retorna la dirección completa del Department.
+3) Cree un storeProcedure donde se calcule la sumatoria de los salarios de los employees dentro de un rango de fechas (hire_date)
+4) Cree un storeProcedure que devuelva todos los employees, filtrados por job_id (proveer texto para el filtro del Job)
