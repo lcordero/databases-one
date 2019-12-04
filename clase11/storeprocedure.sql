@@ -6,7 +6,7 @@ USE HR //
 
 CREATE PROCEDURE GetCountryName(reg_id int)
 BEGIN
-	-- DECLARE reg_id INT DEFAULT 2;
+	DECLARE reg_id INT DEFAULT 2;
 	SELECT 
 		countries.COUNTRY_NAME 
     FROM
